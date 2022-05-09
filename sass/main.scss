@@ -19,9 +19,34 @@ body {
     padding: 3em 0;
     background-image: url("../img/hero-01.jpg");
     background-size: cover;
+    position: relative;
     img {
         height: 70px !important;
         height: auto;
+    }
+}
+.arrow-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transition: opacity .3s ease-in-out;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+}
+.lang {
+    position: absolute;
+    top: 24px;
+    right: 48px;
+    color: gray;
+    a {
+        color: white !important;
+        text-decoration: none;
     }
 }
 .hero-body {

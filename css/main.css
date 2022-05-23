@@ -10320,6 +10320,9 @@ body {
   height: 70px !important;
   height: auto;
 }
+.hero .hero-head {
+  padding-left: 3em;
+}
 
 .arrow-down {
   position: absolute;
